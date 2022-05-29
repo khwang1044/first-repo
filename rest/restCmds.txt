@@ -1,4 +1,5 @@
 <1>: curl --location --request GET 'https://api.github.com/users/khwang1044'
 
-<2>: curl --location --request GET 'https://api.github.com/user/repos' \
-     --header 'Authorization: Bearer <your_token>'
+<2>: curl --location --request GET 'https://api.github.com/user/repos' --header 'Authorization: Bearer <your_token>'
+
+<3>: curl --location --request GET 'https://api.github.com/repos/khwang1044/first-repo/pulls/2'
