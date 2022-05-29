@@ -1,0 +1,4 @@
+<1>: curl --location --request GET 'https://api.github.com/users/khwang1044'
+
+<2>: curl --location --request GET 'https://api.github.com/user/repos' \
+     --header 'Authorization: Bearer <your_token>'
